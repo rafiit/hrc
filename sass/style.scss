@@ -493,7 +493,7 @@ p {
 	
 		li {
 		
-			a {padding:0 20px !important}
+			a {padding:0 15px !important}
 			
 		}
 		
@@ -631,13 +631,17 @@ p {
 		.shadow {display:none}
 		
 		h1 {
+			clear:both;
+			bottom:auto;
 			font-size:24px;
 			line-height:21px;
 			padding:10px 0;
+			position:relative;
+			
 		}
 
 	}
-	
+		
 	.search {
 	
 		.row {

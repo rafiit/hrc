@@ -340,7 +340,7 @@ p {
     width: auto !important; }
 
   #header .navbar-nav li a {
-    padding: 0 20px !important; }
+    padding: 0 15px !important; }
 
   #main .search .row {
     padding: 0 200px; }
@@ -427,9 +427,12 @@ p {
   #main .hero .shadow {
     display: none; }
   #main .hero h1 {
+    clear: both;
+    bottom: auto;
     font-size: 24px;
     line-height: 21px;
-    padding: 10px 0; }
+    padding: 10px 0;
+    position: relative; }
   #main .search .row {
     padding: 0 15px; }
   #main .intro .content {
